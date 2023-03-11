@@ -1,2 +1,2 @@
-# landingpage
+# Landingpage
 Project Landing Page
