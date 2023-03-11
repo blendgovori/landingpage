@@ -1,0 +1,144 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.intro {
+  background-color: #FED8B1;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  gap: 25px;
+  padding-bottom: 25px;
+  
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  width: 150px;
+}
+
+.header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FED8B1;
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+}
+
+.header img {
+  width: 250px;
+  height: auto;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+
+.headerlinks {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  
+}
+
+a {
+  list-style-type: none;
+  text-decoration: none;
+  color:black;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: black;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 18px;
+  color: black;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.image-1 {
+  width: 400px;
+
+}
+
+
+
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.bot {
+  border: #3882f6;
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  font-weight: bold;
+  color: #e5e7eb;
+  font-size: 20px;
+
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 20px 40px 20px;
+}
+
+.card {
+
+  border-radius: 10px;
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px;
+  border-color: #3882f6;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
